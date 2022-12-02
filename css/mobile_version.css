@@ -1,0 +1,51 @@
+@media screen and (max-width: 800px) {
+    .menu-navegacao {
+        display: none;
+    }
+    
+    .imagem-homelife {
+        width: 50px;
+    }
+
+    .sidebar-cabecalho {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-sidebar {
+        background-color: rgb(255,255,255);
+        margin-left: 10px;
+        border: none;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+
+
+    .imagem-principal {
+        height: 100%;
+        width: 100vw;
+    }
+
+    .img-body-container {
+        display: inline;
+    }
+
+    .imgs-body {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .titulo-imagens {
+        width: 85.5vw;
+    }
+
+    .container-contatos {
+        padding: 20px;
+
+    }
+}
+
