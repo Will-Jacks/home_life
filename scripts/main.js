@@ -11,6 +11,5 @@ function mostraMenu() {
         document.body.style.opacity = '1';
         cont = 0;
     }
-    console.log(cont);
 }
 
