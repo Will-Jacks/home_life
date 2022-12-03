@@ -2,9 +2,31 @@
     .menu-navegacao {
         display: none;
     }
+
+    .sidebar-mobile {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        padding-left: 10px;
+        width: 100vw;
+        height: 200vw;
+         
+        background-color: white;
+    }
+
+    .links-sidebar {
+        display: flex;
+        padding: 20px;
+        margin: 5px;
+        background-color: #F5F5F5;
+        font-family: 'Playfair Display', serif;
+        font-size: 20px;
+        color: black;
+        text-align: center;
+    }
     
     .imagem-homelife {
-        width: 50px;
+        width: 100px;
     }
 
     .sidebar-cabecalho {
@@ -15,7 +37,7 @@
 
     .btn-sidebar {
         background-color: rgb(255,255,255);
-        margin-left: 10px;
+        margin-right: 10px;
         border: none;
     }
 

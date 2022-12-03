@@ -12,19 +12,26 @@
 </head>
 <body>
     <header class="cabecalho">
+        <img src="src/logo.png" alt="" class="imagem-homelife">
         
         <div class="sidebar-cabecalho">
-            <button class="btn-sidebar">&#9776;</button>
+            <button class="btn-sidebar" onclick="mostraMenu();">&#9776;</button>
         </div>
 
-        <img src="src/logo.png" alt="" class="imagem-homelife">
         <nav class="menu-navegacao">
-            <p><a href="../index.html" class="navegacao a-home">Home |</a></p>
+            <p><a href="index.html" class="navegacao a-home">Home |</a></p>
             <p><a href="tabs/procedimentos.html" class="navegacao">Procedimentos |</a></p>
             <p><a href="#unidade" class="navegacao">Unidades |</a></p>
             <p><a href="#contato" class="navegacao">Fale conosco</a></p>
         </nav>
     </header>
+
+    <nav class="sidebar-mobile">
+        <p><a href="index.html" class="links-sidebar">Home</a></p>
+        <p><a href="tabs/procedimentos.html" class="links-sidebar">Procedimentos</a></p>
+        <p><a href="#unidade" class="links-sidebar">Unidades</a></p>
+        <p><a href="#contato" class="links-sidebar">Fale conosco</a></p>
+    </nav>
 
     <span>
         <img src="src/imagem-principal-pexels.jpg" alt="" class="imagem-principal">
@@ -107,3 +114,4 @@
     </footer>
 </body>
 </html>
+<script src="scripts/main.js"></script>

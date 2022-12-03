@@ -18,6 +18,10 @@ body {
     display: none;
 }
 
+.sidebar-mobile {
+    display: none;
+}
+
 .imagem-homelife {
     margin: 5px;
 }

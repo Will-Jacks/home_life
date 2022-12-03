@@ -8,12 +8,17 @@
         <link rel="stylesheet" href="../css/reset.css">
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/procedimentos.css">
-        <link rel="stylesheet" href="css/mobile_version.css">
+        <link rel="stylesheet" href="../css/mobile_version.css">
         <link rel="shortcut icon" href="../src/icons/favicon-32x32.png" type="image/x-icon">
     </head>
 <body>
     <header class="cabecalho">
         <a href="../index.html"><img src="../src/logo.png" alt="" class="imagem-homelife"></a>
+
+        <div class="sidebar-cabecalho">
+            <button class="btn-sidebar" onclick="mostraMenu();">&#9776;</button>
+        </div>
+
         <nav class="menu-navegacao">
             <p><a href="../index.html" class="navegacao">Home |</a></p>
             <p><a href="#" class="navegacao a-procedimentos">Procedimentos |</a></p>
@@ -22,9 +27,12 @@
         </nav>
     </header>
 
-    <section class="procedimentos-basicos">
-            
-    </section>
+    <nav class="sidebar-mobile">
+        <p><a href="index.html" class="links-sidebar">Home</a></p>
+        <p><a href="tabs/procedimentos.html" class="links-sidebar">Procedimentos</a></p>
+        <p><a href="#unidade" class="links-sidebar">Unidades</a></p>
+        <p><a href="#contato" class="links-sidebar">Fale conosco</a></p>
+    </nav>
 
     <main>
         <h1 class="titulo-principal">Nossos procedimentos</h1>
@@ -99,3 +107,4 @@
     
 </body>
 </html>
+<script src="../scripts/main.js"></script>
