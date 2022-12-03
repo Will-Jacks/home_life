@@ -5,7 +5,6 @@ function mostraMenu() {
 
     if (cont == 1){
         sidebar.style.display = 'flex';
-        document.body.style.opacity = '0.8';
     }
     else if (cont == 2) {
         sidebar.style.display = 'none';
