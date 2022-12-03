@@ -68,7 +68,11 @@
 
     .container-contatos {
         padding: 20px;
+        display: block;
+    }
 
+    .container-whatsapp {
+        margin-bottom: 35px;
     }
 }
 
